@@ -71,6 +71,19 @@ app.get('/corn', function(req, res) {
   
 
 });
+app.get('/chart', function(req, res) {
+  res.render('impact/chart', {items: null});
+  
+  
+
+});
+
+app.get('/plots', function(req, res) {
+  res.render('impact/images', {items: null});
+  
+  
+
+});
 
 app.get('/grape', function(req, res) {
 

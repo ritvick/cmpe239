@@ -1,5 +1,5 @@
 applications:
-- name: cmpe272-mainProject
+- name: cmpe239
   command: node app.js
   path: .
   memory: 512M

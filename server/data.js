@@ -12,7 +12,7 @@ MongoDb = db;
 
 });
 **/
-MongoClient.connect("mongodb://localhost:27017/cmpe239").then(function(db) {
+MongoClient.connect("mongodb://cmpe239:cmpe239@ds111788.mlab.com:11788/cmpe239").then(function(db) {
 
 	console.log('Mongo DB connected');
 	var sensorMetaDataCollection  = db.collection("sensorMetaData");
